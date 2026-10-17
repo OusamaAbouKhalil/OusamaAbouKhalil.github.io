@@ -168,7 +168,9 @@
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" media="print" onload="this.media='all'" />
+  <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;700&display=swap" /></noscript>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -340,7 +342,7 @@
               </div>
             </div>
             <div class="app-visual" style="--glow:#A855F7">
-              <img class="store-shot" src="assets/oeg-shot.webp" alt="OEG app screenshot: tutors bid on your request" loading="lazy" />
+              <img class="store-shot" src="assets/oeg-shot.webp" width="600" height="1300" alt="OEG app screenshot: tutors bid on your request" loading="lazy" />
             </div>
           </article>
 
@@ -382,7 +384,7 @@
               </div>
             </div>
             <div class="app-visual" style="--glow:#FACC15">
-              <img class="store-shot" src="assets/iykno-shot.webp" alt="IYKNO app screenshot: post the question, any subject" loading="lazy" />
+              <img class="store-shot" src="assets/iykno-shot.webp" width="600" height="1300" alt="IYKNO app screenshot: post the question, any subject" loading="lazy" />
             </div>
           </article>
 
@@ -425,7 +427,7 @@
               </div>
             </div>
             <div class="app-visual" style="--glow:#3B82F6">
-              <img class="store-shot" src="assets/clip-shot.webp" alt="Clip Kitchen app screenshot: copy the reels that already work" loading="lazy" />
+              <img class="store-shot" src="assets/clip-shot.webp" width="600" height="1300" alt="Clip Kitchen app screenshot: copy the reels that already work" loading="lazy" />
             </div>
           </article>
 
@@ -466,7 +468,7 @@
               </div>
             </div>
             <div class="app-visual" style="--glow:#2DD4BF">
-              <img class="store-shot" src="assets/swiftgo-shot.webp" alt="SwiftGo app screenshot: Lebanon's best food, delivered" loading="lazy" />
+              <img class="store-shot" src="assets/swiftgo-shot.webp" width="600" height="1300" alt="SwiftGo app screenshot: Lebanon's best food, delivered" loading="lazy" />
             </div>
           </article>
 
@@ -499,7 +501,7 @@
               </div>
             </div>
             <div class="app-visual" style="--glow:#F59E0B">
-              <img class="store-shot" src="assets/besweet-shot.webp" alt="BeSweet website: crepes, waffles and sweet moments" loading="lazy" />
+              <img class="store-shot" src="assets/besweet-shot.webp" width="390" height="844" alt="BeSweet website: crepes, waffles and sweet moments" loading="lazy" />
             </div>
           </article>
 
@@ -532,7 +534,7 @@
               </div>
             </div>
             <div class="app-visual" style="--glow:#FB923C">
-              <img class="store-shot" src="assets/maison-shot.webp" alt="Maison du Crepe website: made fresh, dripping with love" loading="lazy" />
+              <img class="store-shot" src="assets/maison-shot.webp" width="390" height="844" alt="Maison du Crepe website: made fresh, dripping with love" loading="lazy" />
             </div>
           </article>
 
@@ -805,47 +807,47 @@
 
         <div class="certs-grid">
           <button class="cert-card reveal" data-img="assets/certs/ccna2.webp" aria-label="View CCNA Routing and Switching certificate">
-            <img src="assets/certs/ccna2.webp" alt="Cisco CCNA Routing and Switching certificate" loading="lazy" />
+            <img src="assets/certs/ccna2.webp" width="1000" height="700" alt="Cisco CCNA Routing and Switching certificate" loading="lazy" />
             <span class="cert-name">CCNA Routing &amp; Switching</span>
             <span class="cert-issuer">Cisco Networking Academy · 2023</span>
           </button>
           <button class="cert-card reveal" data-img="assets/certs/ccna22.webp" aria-label="View Introduction to Networks certificate">
-            <img src="assets/certs/ccna22.webp" alt="Cisco Introduction to Networks certificate" loading="lazy" />
+            <img src="assets/certs/ccna22.webp" width="1000" height="700" alt="Cisco Introduction to Networks certificate" loading="lazy" />
             <span class="cert-name">Introduction to Networks</span>
             <span class="cert-issuer">Cisco Networking Academy · 2022</span>
           </button>
           <button class="cert-card reveal" data-img="assets/certs/certMeta.webp" aria-label="View Meta Android Development certificate">
-            <img src="assets/certs/certMeta.webp" alt="Meta Android Development certificate via Coursera" loading="lazy" />
+            <img src="assets/certs/certMeta.webp" width="1000" height="700" alt="Meta Android Development certificate via Coursera" loading="lazy" />
             <span class="cert-name">Android Development</span>
             <span class="cert-issuer">Meta · Coursera · 2023</span>
           </button>
           <button class="cert-card reveal" data-img="assets/certs/android.webp" aria-label="View Programming Hub Android Development certificate">
-            <img src="assets/certs/android.webp" alt="Programming Hub Android Development certificate" loading="lazy" />
+            <img src="assets/certs/android.webp" width="1000" height="700" alt="Programming Hub Android Development certificate" loading="lazy" />
             <span class="cert-name">Android Development</span>
             <span class="cert-issuer">Programming Hub</span>
           </button>
           <button class="cert-card reveal" data-img="assets/certs/programminhub.webp" aria-label="View Programming Hub Java certificate">
-            <img src="assets/certs/programminhub.webp" alt="Programming Hub Java certificate" loading="lazy" />
+            <img src="assets/certs/programminhub.webp" width="1000" height="700" alt="Programming Hub Java certificate" loading="lazy" />
             <span class="cert-name">Java</span>
             <span class="cert-issuer">Programming Hub</span>
           </button>
           <button class="cert-card reveal" data-img="assets/certs/pythonhub.webp" aria-label="View Programming Hub Python certificate">
-            <img src="assets/certs/pythonhub.webp" alt="Programming Hub Python certificate" loading="lazy" />
+            <img src="assets/certs/pythonhub.webp" width="1000" height="700" alt="Programming Hub Python certificate" loading="lazy" />
             <span class="cert-name">Python</span>
             <span class="cert-issuer">Programming Hub</span>
           </button>
           <button class="cert-card reveal" data-img="assets/certs/webmimo.webp" aria-label="View Mimo Web Development certificate">
-            <img src="assets/certs/webmimo.webp" alt="Mimo Web Development certificate" loading="lazy" />
+            <img src="assets/certs/webmimo.webp" width="1000" height="700" alt="Mimo Web Development certificate" loading="lazy" />
             <span class="cert-name">Web Development</span>
             <span class="cert-issuer">Mimo</span>
           </button>
           <button class="cert-card reveal" data-img="assets/certs/cedarsbyte.webp" aria-label="View Cedars Byte internship certificate">
-            <img src="assets/certs/cedarsbyte.webp" alt="Cedars Byte mobile development internship certificate" loading="lazy" />
+            <img src="assets/certs/cedarsbyte.webp" width="1000" height="700" alt="Cedars Byte mobile development internship certificate" loading="lazy" />
             <span class="cert-name">Mobile Development Internship</span>
             <span class="cert-issuer">Cedars Byte · 2023</span>
           </button>
           <button class="cert-card reveal" data-img="assets/certs/DollySoft.webp" aria-label="View Dolly Soft internship certificate">
-            <img src="assets/certs/DollySoft.webp" alt="Dolly Soft software engineering internship certificate" loading="lazy" />
+            <img src="assets/certs/DollySoft.webp" width="1000" height="700" alt="Dolly Soft software engineering internship certificate" loading="lazy" />
             <span class="cert-name">Software Engineering Internship</span>
             <span class="cert-issuer">Dolly Soft · 2021</span>
           </button>
@@ -877,7 +879,7 @@
           </figure>
 
           <figure class="review-card reveal">
-            <div class="review-stars" aria-label="5 out of 5 stars">
+            <div class="review-stars" role="img" aria-label="5 out of 5 stars">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
@@ -892,7 +894,7 @@
           </figure>
 
           <figure class="review-card reveal">
-            <div class="review-stars" aria-label="5 out of 5 stars">
+            <div class="review-stars" role="img" aria-label="5 out of 5 stars">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
@@ -908,7 +910,7 @@
           </figure>
 
           <figure class="review-card reveal">
-            <div class="review-stars" aria-label="5 out of 5 stars">
+            <div class="review-stars" role="img" aria-label="5 out of 5 stars">
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
               <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2l3 7h7l-5.5 4.5L18 21l-6-4-6 4 1.5-7.5L2 9h7z"/></svg>
@@ -1061,7 +1063,7 @@
         </div>
 
         <nav class="footer-col" aria-label="Footer navigation">
-          <h4>Explore</h4>
+          <h3>Explore</h3>
           <a href="#about">About</a>
           <a href="#apps">Apps</a>
           <a href="#experience">Experience</a>
@@ -1071,7 +1073,7 @@
         </nav>
 
         <nav class="footer-col" aria-label="Featured apps">
-          <h4>Apps</h4>
+          <h3>Apps</h3>
           <a href="https://apps.apple.com/us/app/oeg-online-tutors-lessons/id6444192194" target="_blank" rel="noopener">OEG: Online Tutors</a>
           <a href="https://apps.apple.com/us/app/iykno-tutors-homework-help/id6791797037" target="_blank" rel="noopener">IYKNO</a>
           <a href="https://apps.apple.com/us/app/clip-kitchen-video-editing/id6796904408" target="_blank" rel="noopener">Clip Kitchen</a>
@@ -1080,8 +1082,8 @@
           <a href="https://maison-du-crepe.netlify.app" target="_blank" rel="noopener">Maison du Cr&ecirc;pe</a>
         </nav>
 
-        <div class="footer-col" aria-label="Contact details">
-          <h4>Contact</h4>
+        <div class="footer-col">
+          <h3>Contact</h3>
           <a href="mailto:ousamaaboukhalil@gmail.com">
             <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 7-10 6L2 7"/></svg>
             ousamaaboukhalil@gmail.com
