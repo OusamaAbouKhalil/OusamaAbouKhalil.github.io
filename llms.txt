@@ -1,0 +1,38 @@
+# Ousama Abou Khalil — Mobile & Web Developer
+
+> Ousama Abou Khalil is a mobile and web developer based in Beirut, Lebanon,
+> specializing in React Native, Flutter, Firebase and Supabase. He builds
+> cross-platform products end to end and has shipped apps serving 20,000+ users
+> on both the Apple App Store and Google Play.
+
+## Who he is
+
+- Name: Ousama Abou Khalil (also written Osama Abou Khalil)
+- Role: Mobile & Web Developer at Our Easy Game LLC; mobile development tutor at Warshe961
+- Location: Beirut, Lebanon
+- Education: B.S. in Computer Science, Lebanese International University (2020-2024)
+- Languages: English (business fluent), Arabic (native)
+- Stack: React Native, Flutter, Dart, React, JavaScript, Java, PHP, Firebase, Supabase, MySQL, REST APIs, CI/CD
+- Key achievement: planned and executed a migration affecting 20,000+ users with zero downtime and no data-integrity issues
+
+## Apps he built
+
+- [OEG: Online Tutors & Lessons](https://apps.apple.com/us/app/oeg-online-tutors-lessons/id6444192194): tutoring platform ("Our Easy Game"), 24/7 homework and exam help across 100+ subjects. Flutter + Firebase. Website: https://oureasygame.com
+- [IYKNO: Tutors & Homework Help](https://apps.apple.com/us/app/iykno-tutors-homework-help/id6791797037): AI-free tutoring marketplace where verified tutors bid on student requests. React Native + Supabase. Also on Google Play (com.oureasygame.oeg). Website: https://iykno.app
+- [Clip Kitchen: Video Editing](https://apps.apple.com/us/app/clip-kitchen-video-editing/id6796904408): short-form video app; users send raw clips, editors return finished reels published to Instagram, TikTok, Facebook and YouTube. React Native + Supabase. Also on Google Play (com.clipkitchen.app). Website: https://theclipkitchen.com
+- [SwiftGo: Food Delivery & Rides](https://apps.apple.com/us/app/swift-go/id6698877609): ride-hailing and food delivery platform for the Lebanese market; 4-app ecosystem (rider, driver, store panel, admin panel). Flutter + Firebase. Also on Google Play (com.infiniterealm.swiftgo). Website: https://swiftgo.online
+- [BeSweet](https://besweet.netlify.app): dessert shop website with online ordering, multilingual UI
+- [Maison du Crepe](https://maison-du-crepe.netlify.app): app-style ordering website for a creperie in Sour, South Lebanon
+
+## Links
+
+- [Portfolio](https://ousamaaboukhalil.github.io/): full portfolio with experience, projects, certifications and testimonials
+- [GitHub](https://github.com/OusamaAbouKhalil): open-source projects and code
+- [LinkedIn](https://www.linkedin.com/in/ousama-abou-khalil): professional profile
+- [CV (PDF)](https://ousamaaboukhalil.github.io/assets/Ousama-Abou-Khalil-CV.pdf)
+
+## Contact
+
+- Email: ousamaaboukhalil@gmail.com
+- Phone: +961 81 238 678
+- Available for freelance and full-time mobile/web development work
